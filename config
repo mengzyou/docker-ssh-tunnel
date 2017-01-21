@@ -1,0 +1,8 @@
+Host *
+  ForwardAgent no
+  ForwardX11 no
+  ForwardX11Trusted yes
+  Protocol 2
+  StrictHostKeyChecking no
+  ServerAliveInterval 30
+  ServerAliveCountMax 120
